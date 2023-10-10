@@ -2,10 +2,38 @@
     margin: 5px;
 }
 
-#test {
-    border: solid 1px black; 
-    width: 200px; 
-    padding: 5px; 
+#dialogue {
+    width: 200px;
+    height: fit-content;
+}
+
+input {
+    width: 180px;
+    padding: 3px;
+    margin: 3px;
+    display: inline;
+}
+
+#book-status {
+    display: flex;
+}
+
+#book-status > div > input {
+    width: fit-content;
+}
+
+#book-read, #book-not-read {
+    width: 100px;
+    justify-content: center;
+}
+
+#dialog-buttons {
     display: flex;
     justify-content: center;
+    /* background-color: blue; */
+}
+
+#dialog-buttons > button {
+    padding: 3px;
+    margin: 3px;
 }
