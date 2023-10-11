@@ -30,7 +30,6 @@ input {
 #dialog-buttons {
     display: flex;
     justify-content: center;
-    /* background-color: blue; */
 }
 
 #dialog-buttons > button {
